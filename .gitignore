@@ -1,3 +1,7 @@
+.idea
+.gradle
+.exercism
+
 # Compiled class file
 *.class
 
