@@ -1,9 +1,8 @@
+import java.util.Objects;
+
 public class Twofer {
     public String twofer(String name) {
-        if(name != null) {
-            return "One for " + name + ", one for me.";
-        }
-        return twofer();
+        return Objects.nonNull(name) ? "One for " + name + ", one for me." : twofer();
     }
 
     public String twofer() {
