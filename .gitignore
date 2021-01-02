@@ -2,6 +2,8 @@
 **/.gradle
 **/.exercism
 **/build
+**/.pytest_cache
+**/__pycache__
 *.xml
 
 # Compiled class file
